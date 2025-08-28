@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 // 2. Define your CORS options
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://udaan-frontend-f492aolyj-lakshaya-s-projects.vercel.app/"],
+  origin: ["http://localhost:5173", "https://udaan-frontend-mocha.vercel.app"],
   methods: ["GET", "POST"]
 };
 
