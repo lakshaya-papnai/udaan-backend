@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app); //  Create http server with the app
 const io = new Server(server, { // Create socket.io server
   cors: {
-    origin: "http://localhost:5173", // Allow our frontend to connect
+    origin: ["http://localhost:5173", "https://udaan-frontend-mocha.vercel.app"],
     methods: ["GET", "POST"]
   }
 });
